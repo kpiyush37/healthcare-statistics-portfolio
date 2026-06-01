@@ -1,0 +1,12 @@
+Step,N
+1. Full NHANES 2017-2018,9254
+2. Adults aged >= 20 years,5569
+3. Excluded: education refused/unknown,-13
+4. Excluded: missing diabetes status,-175
+5. Excluded: missing BMI,-380
+6. Excluded: missing income ratio,-653
+7. Excluded: missing hypertension,-9
+8. Excluded: missing smoking status,0
+   Final analytic cohort,4339
+   — Diabetes cases,701
+   — No diabetes,3638
