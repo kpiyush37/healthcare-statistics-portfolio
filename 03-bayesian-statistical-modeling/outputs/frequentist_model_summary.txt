@@ -1,0 +1,28 @@
+
+Call:
+glm(formula = low_num ~ age_z + lwt_z + race + smoking + hypertension + 
+    uterine_irritability + previous_preterm_labor, family = binomial, 
+    data = analysis_df)
+
+Coefficients:
+                          Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                -2.1759     0.4100  -5.307 1.11e-07 ***
+age_z                      -0.2000     0.2003  -0.998  0.31808    
+lwt_z                      -0.4559     0.2153  -2.118  0.03419 *  
+raceBlack                   1.2127     0.5325   2.278  0.02275 *  
+raceOther                   0.8041     0.4484   1.793  0.07294 .  
+smokingYes                  0.8464     0.4081   2.074  0.03806 *  
+hypertensionYes             1.8387     0.7032   2.615  0.00893 ** 
+uterine_irritabilityYes     0.7111     0.4631   1.536  0.12465    
+previous_preterm_laborYes   1.2218     0.4630   2.639  0.00832 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 234.67  on 188  degrees of freedom
+Residual deviance: 196.83  on 180  degrees of freedom
+AIC: 214.83
+
+Number of Fisher Scoring iterations: 4
+

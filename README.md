@@ -73,9 +73,36 @@ A portfolio of applied statistical analyses in healthcare using real-world and c
 
 ---
 
-### 3. Bayesian Statistical Modelling
+### 3. Bayesian Statistical Modelling: Low Birth Weight Risk Factors
 
-*Project under development.*
+**Objective:** Implement Bayesian logistic regression using a Metropolis-Hastings MCMC sampler built entirely from scratch to estimate posterior distributions of odds ratios for maternal risk factors associated with low birth weight.
+
+**Dataset:** Baystate Medical Center, Springfield MA (1986) — `MASS::birthwt`; n = 189 singleton births, 59 low birth weight cases (31.2%), no missing data
+
+**Methods**
+- Bayesian logistic regression via Metropolis-Hastings MCMC (built from scratch in base R — no `rstanarm`, `brms`, or `rjags`)
+- Normal(0, 2.5²) weakly informative prior on all coefficients
+- 40,000 MCMC iterations, 10,000 burn-in, 30,000 post-burn-in samples retained
+- Posterior summary: median OR, 95% credible interval, P(OR > 1)
+- Frequentist logistic regression as a validation benchmark
+- Prior sensitivity analysis across three prior scales (σ = 1.5, 2.5, 5.0)
+- Posterior predictive check for model fit assessment
+- MCMC diagnostics: trace plots, acceptance rate, posterior density plots
+
+**Key Findings**
+- MCMC acceptance rate: 70.0%; trace plots confirm stationarity and good chain mixing
+- **Hypertension:** posterior OR 6.09 (95% CrI 1.65–25.18); P(OR > 1) = 99.5% — strongest predictor; wide CrI reflects small cell count (n = 12)
+- **Previous preterm labour:** OR 3.65 (95% CrI 1.55–9.61); P(OR > 1) = 99.9% — most certain finding
+- **Black vs. White:** OR 3.13 (95% CrI 1.20–9.21); P(OR > 1) = 99.1%
+- **Smoking during pregnancy:** OR 2.16 (95% CrI 1.04–4.74); P(OR > 1) = 98.1%
+- **Maternal weight:** OR 0.62 (95% CrI 0.41–0.94); P(OR > 1) = 1.1% — only predictor with credible protective effect
+- Age, other race, and uterine irritability showed elevated posterior probabilities (92–97%) but credible intervals crossed OR = 1
+- Bayesian and frequentist estimates consistent in direction and magnitude across all predictors
+- Findings robust across all three prior scales; posterior predictive check: observed = 59, simulated mean = 59.4 (95% PI: 44–75)
+
+**Tools:** R, `MASS`, `tidyverse`, `gtsummary`, `broom`, `ggplot2`
+
+📁 [`03-bayesian-statistical-modelling/`](./03-bayesian-statistical-modelling/)
 
 ---
 
@@ -84,18 +111,22 @@ A portfolio of applied statistical analyses in healthcare using real-world and c
 | Method | Project |
 |---|---|
 | Survey-weighted regression (`svyglm`) | Project 1 |
-| Logistic regression (univariable and multivariable) | Project 1 |
+| Logistic regression (univariable and multivariable) | Projects 1 and 3 |
+| Bayesian logistic regression (MH-MCMC from scratch) | Project 3 |
 | AUC / ROC curve | Project 1 |
+| Hosmer–Lemeshow calibration test | Project 1 |
+| VIF multicollinearity diagnostics | Project 1 |
 | Kaplan–Meier survival estimation | Project 2 |
 | Log-rank test | Project 2 |
 | Cox proportional hazards regression | Project 2 |
 | Proportional hazards diagnostics (`cox.zph`) | Project 2 |
 | Stratified Cox model | Project 2 |
 | Concordance statistic (C-index) | Project 2 |
-| Sensitivity analysis (multiple specifications) | Projects 1 and 2 |
-| Model calibration (Hosmer–Lemeshow) | Project 1 |
-| VIF multicollinearity diagnostics | Project 1 |
+| Prior sensitivity analysis | Project 3 |
+| Posterior predictive check | Project 3 |
+| MCMC diagnostics (trace plots, acceptance rate) | Project 3 |
+| Sensitivity analysis (multiple model specifications) | Projects 1, 2, and 3 |
 
 **Languages:** R
 
-**Key packages:** `survival`, `survey`, `nhanesA`, `tidyverse`, `gtsummary`, `broom`, `pROC`, `car`, `ResourceSelection`, `cowplot`, `ggplot2`
+**Key packages:** `survival`, `survey`, `nhanesA`, `MASS`, `tidyverse`, `gtsummary`, `broom`, `pROC`, `car`, `ResourceSelection`, `cowplot`, `ggplot2`
