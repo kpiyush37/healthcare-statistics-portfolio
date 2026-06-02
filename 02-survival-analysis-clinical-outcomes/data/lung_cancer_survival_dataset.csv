@@ -1,0 +1,138 @@
+time,status,event,treatment,age,cell_type,karno,performance_group,diagtime,prior_therapy
+72,1,1,Standard,69,Squamous,60,Lower performance,7,No
+411,1,1,Standard,64,Squamous,70,Higher performance,5,Yes
+228,1,1,Standard,38,Squamous,60,Lower performance,3,No
+126,1,1,Standard,63,Squamous,60,Lower performance,9,Yes
+118,1,1,Standard,65,Squamous,70,Higher performance,11,Yes
+10,1,1,Standard,49,Squamous,20,Lower performance,5,No
+82,1,1,Standard,69,Squamous,40,Lower performance,10,Yes
+110,1,1,Standard,68,Squamous,80,Higher performance,29,No
+314,1,1,Standard,43,Squamous,50,Lower performance,18,No
+100,0,0,Standard,70,Squamous,70,Higher performance,6,No
+42,1,1,Standard,81,Squamous,60,Lower performance,4,No
+8,1,1,Standard,63,Squamous,40,Lower performance,58,Yes
+144,1,1,Standard,63,Squamous,30,Lower performance,4,No
+25,0,0,Standard,52,Squamous,80,Higher performance,9,Yes
+11,1,1,Standard,48,Squamous,70,Higher performance,11,Yes
+30,1,1,Standard,61,Small Cell,60,Lower performance,3,No
+384,1,1,Standard,42,Small Cell,60,Lower performance,9,No
+4,1,1,Standard,35,Small Cell,40,Lower performance,2,No
+54,1,1,Standard,63,Small Cell,80,Higher performance,4,Yes
+13,1,1,Standard,56,Small Cell,60,Lower performance,4,No
+123,0,0,Standard,55,Small Cell,40,Lower performance,3,No
+97,0,0,Standard,67,Small Cell,60,Lower performance,5,No
+153,1,1,Standard,63,Small Cell,60,Lower performance,14,Yes
+59,1,1,Standard,65,Small Cell,30,Lower performance,2,No
+117,1,1,Standard,46,Small Cell,80,Higher performance,3,No
+16,1,1,Standard,53,Small Cell,30,Lower performance,4,Yes
+151,1,1,Standard,69,Small Cell,50,Lower performance,12,No
+22,1,1,Standard,68,Small Cell,60,Lower performance,4,No
+56,1,1,Standard,43,Small Cell,80,Higher performance,12,Yes
+21,1,1,Standard,55,Small Cell,40,Lower performance,2,Yes
+18,1,1,Standard,42,Small Cell,20,Lower performance,15,No
+139,1,1,Standard,64,Small Cell,80,Higher performance,2,No
+20,1,1,Standard,65,Small Cell,30,Lower performance,5,No
+31,1,1,Standard,65,Small Cell,75,Higher performance,3,No
+52,1,1,Standard,55,Small Cell,70,Higher performance,2,No
+287,1,1,Standard,66,Small Cell,60,Lower performance,25,Yes
+18,1,1,Standard,60,Small Cell,30,Lower performance,4,No
+51,1,1,Standard,67,Small Cell,60,Lower performance,1,No
+122,1,1,Standard,53,Small Cell,80,Higher performance,28,No
+27,1,1,Standard,62,Small Cell,60,Lower performance,8,No
+54,1,1,Standard,67,Small Cell,70,Higher performance,1,No
+7,1,1,Standard,72,Small Cell,50,Lower performance,7,No
+63,1,1,Standard,48,Small Cell,50,Lower performance,11,No
+392,1,1,Standard,68,Small Cell,40,Lower performance,4,No
+10,1,1,Standard,67,Small Cell,40,Lower performance,23,Yes
+8,1,1,Standard,61,Adenocarcinoma,20,Lower performance,19,Yes
+92,1,1,Standard,60,Adenocarcinoma,70,Higher performance,10,No
+35,1,1,Standard,62,Adenocarcinoma,40,Lower performance,6,No
+117,1,1,Standard,38,Adenocarcinoma,80,Higher performance,2,No
+132,1,1,Standard,50,Adenocarcinoma,80,Higher performance,5,No
+12,1,1,Standard,63,Adenocarcinoma,50,Lower performance,4,Yes
+162,1,1,Standard,64,Adenocarcinoma,80,Higher performance,5,No
+3,1,1,Standard,43,Adenocarcinoma,30,Lower performance,3,No
+95,1,1,Standard,34,Adenocarcinoma,80,Higher performance,4,No
+177,1,1,Standard,66,Large Cell,50,Lower performance,16,Yes
+162,1,1,Standard,62,Large Cell,80,Higher performance,5,No
+216,1,1,Standard,52,Large Cell,50,Lower performance,15,No
+553,1,1,Standard,47,Large Cell,70,Higher performance,2,No
+278,1,1,Standard,63,Large Cell,60,Lower performance,12,No
+12,1,1,Standard,68,Large Cell,40,Lower performance,12,Yes
+260,1,1,Standard,45,Large Cell,80,Higher performance,5,No
+200,1,1,Standard,41,Large Cell,80,Higher performance,12,Yes
+156,1,1,Standard,66,Large Cell,70,Higher performance,2,No
+182,0,0,Standard,62,Large Cell,90,Higher performance,2,No
+143,1,1,Standard,60,Large Cell,90,Higher performance,8,No
+105,1,1,Standard,66,Large Cell,80,Higher performance,11,No
+103,1,1,Standard,38,Large Cell,80,Higher performance,5,No
+250,1,1,Standard,53,Large Cell,70,Higher performance,8,Yes
+100,1,1,Standard,37,Large Cell,60,Lower performance,13,Yes
+999,1,1,Test,54,Squamous,90,Higher performance,12,Yes
+112,1,1,Test,60,Squamous,80,Higher performance,6,No
+87,0,0,Test,48,Squamous,80,Higher performance,3,No
+231,0,0,Test,52,Squamous,50,Lower performance,8,Yes
+242,1,1,Test,70,Squamous,50,Lower performance,1,No
+991,1,1,Test,50,Squamous,70,Higher performance,7,Yes
+111,1,1,Test,62,Squamous,70,Higher performance,3,No
+1,1,1,Test,65,Squamous,20,Lower performance,21,Yes
+587,1,1,Test,58,Squamous,60,Lower performance,3,No
+389,1,1,Test,62,Squamous,90,Higher performance,2,No
+33,1,1,Test,64,Squamous,30,Lower performance,6,No
+25,1,1,Test,63,Squamous,20,Lower performance,36,No
+357,1,1,Test,58,Squamous,70,Higher performance,13,No
+467,1,1,Test,64,Squamous,90,Higher performance,2,No
+201,1,1,Test,52,Squamous,80,Higher performance,28,Yes
+1,1,1,Test,35,Squamous,50,Lower performance,7,No
+30,1,1,Test,63,Squamous,70,Higher performance,11,No
+44,1,1,Test,70,Squamous,60,Lower performance,13,Yes
+283,1,1,Test,51,Squamous,90,Higher performance,2,No
+15,1,1,Test,40,Squamous,50,Lower performance,13,Yes
+25,1,1,Test,69,Small Cell,30,Lower performance,2,No
+103,0,0,Test,36,Small Cell,70,Higher performance,22,Yes
+21,1,1,Test,71,Small Cell,20,Lower performance,4,No
+13,1,1,Test,62,Small Cell,30,Lower performance,2,No
+87,1,1,Test,60,Small Cell,60,Lower performance,2,No
+2,1,1,Test,44,Small Cell,40,Lower performance,36,Yes
+20,1,1,Test,54,Small Cell,30,Lower performance,9,Yes
+7,1,1,Test,66,Small Cell,20,Lower performance,11,No
+24,1,1,Test,49,Small Cell,60,Lower performance,8,No
+99,1,1,Test,72,Small Cell,70,Higher performance,3,No
+8,1,1,Test,68,Small Cell,80,Higher performance,2,No
+99,1,1,Test,62,Small Cell,85,Higher performance,4,No
+61,1,1,Test,71,Small Cell,70,Higher performance,2,No
+25,1,1,Test,70,Small Cell,70,Higher performance,2,No
+95,1,1,Test,61,Small Cell,70,Higher performance,1,No
+80,1,1,Test,71,Small Cell,50,Lower performance,17,No
+51,1,1,Test,59,Small Cell,30,Lower performance,87,Yes
+29,1,1,Test,67,Small Cell,40,Lower performance,8,No
+24,1,1,Test,60,Adenocarcinoma,40,Lower performance,2,No
+18,1,1,Test,69,Adenocarcinoma,40,Lower performance,5,Yes
+83,0,0,Test,57,Adenocarcinoma,99,Higher performance,3,No
+31,1,1,Test,39,Adenocarcinoma,80,Higher performance,3,No
+51,1,1,Test,62,Adenocarcinoma,60,Lower performance,5,No
+90,1,1,Test,50,Adenocarcinoma,60,Lower performance,22,Yes
+52,1,1,Test,43,Adenocarcinoma,60,Lower performance,3,No
+73,1,1,Test,70,Adenocarcinoma,60,Lower performance,3,No
+8,1,1,Test,66,Adenocarcinoma,50,Lower performance,5,No
+36,1,1,Test,61,Adenocarcinoma,70,Higher performance,8,No
+48,1,1,Test,81,Adenocarcinoma,10,Lower performance,4,No
+7,1,1,Test,58,Adenocarcinoma,40,Lower performance,4,No
+140,1,1,Test,63,Adenocarcinoma,70,Higher performance,3,No
+186,1,1,Test,60,Adenocarcinoma,90,Higher performance,3,No
+84,1,1,Test,62,Adenocarcinoma,80,Higher performance,4,Yes
+19,1,1,Test,42,Adenocarcinoma,50,Lower performance,10,No
+45,1,1,Test,69,Adenocarcinoma,40,Lower performance,3,No
+80,1,1,Test,63,Adenocarcinoma,40,Lower performance,4,No
+52,1,1,Test,45,Large Cell,60,Lower performance,4,No
+164,1,1,Test,68,Large Cell,70,Higher performance,15,Yes
+19,1,1,Test,39,Large Cell,30,Lower performance,4,Yes
+53,1,1,Test,66,Large Cell,60,Lower performance,12,No
+15,1,1,Test,63,Large Cell,30,Lower performance,5,No
+43,1,1,Test,49,Large Cell,60,Lower performance,11,Yes
+340,1,1,Test,64,Large Cell,80,Higher performance,10,Yes
+133,1,1,Test,65,Large Cell,75,Higher performance,1,No
+111,1,1,Test,64,Large Cell,60,Lower performance,5,No
+231,1,1,Test,67,Large Cell,70,Higher performance,18,Yes
+378,1,1,Test,65,Large Cell,80,Higher performance,4,No
+49,1,1,Test,37,Large Cell,30,Lower performance,3,No

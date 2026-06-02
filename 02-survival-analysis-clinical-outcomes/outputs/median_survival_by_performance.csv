@@ -1,0 +1,3 @@
+group,median_survival_days,lower_95_ci,upper_95_ci
+Higher performance,132,111,164
+Lower performance,42,24,52

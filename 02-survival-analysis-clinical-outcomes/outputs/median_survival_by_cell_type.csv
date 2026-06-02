@@ -1,0 +1,5 @@
+group,median_survival_days,lower_95_ci,upper_95_ci
+Squamous,118,82,314
+Small Cell,51,25,63
+Adenocarcinoma,51,35,92
+Large Cell,156,105,231

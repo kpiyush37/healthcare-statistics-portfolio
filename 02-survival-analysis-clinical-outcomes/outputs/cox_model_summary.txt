@@ -1,0 +1,33 @@
+Call:
+coxph(formula = Surv(time, event) ~ treatment + age + karno + 
+    cell_type + diagtime + prior_therapy, data = analysis_df)
+
+  n= 137, number of events= 128 
+
+                              coef  exp(coef)   se(coef)      z Pr(>|z|)    
+treatmentTest            2.946e-01  1.343e+00  2.075e-01  1.419  0.15577    
+age                     -8.706e-03  9.913e-01  9.300e-03 -0.936  0.34920    
+karno                   -3.282e-02  9.677e-01  5.508e-03 -5.958 2.55e-09 ***
+cell_typeSmall Cell      8.616e-01  2.367e+00  2.753e-01  3.130  0.00175 ** 
+cell_typeAdenocarcinoma  1.196e+00  3.307e+00  3.009e-01  3.975 7.05e-05 ***
+cell_typeLarge Cell      4.013e-01  1.494e+00  2.827e-01  1.420  0.15574    
+diagtime                 8.132e-05  1.000e+00  9.136e-03  0.009  0.99290    
+prior_therapyYes         7.159e-02  1.074e+00  2.323e-01  0.308  0.75794    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                        exp(coef) exp(-coef) lower .95 upper .95
+treatmentTest              1.3426     0.7448    0.8939    2.0166
+age                        0.9913     1.0087    0.9734    1.0096
+karno                      0.9677     1.0334    0.9573    0.9782
+cell_typeSmall Cell        2.3669     0.4225    1.3799    4.0597
+cell_typeAdenocarcinoma    3.3071     0.3024    1.8336    5.9647
+cell_typeLarge Cell        1.4938     0.6695    0.8583    2.5996
+diagtime                   1.0001     0.9999    0.9823    1.0182
+prior_therapyYes           1.0742     0.9309    0.6813    1.6937
+
+Concordance= 0.736  (se = 0.021 )
+Likelihood ratio test= 62.1  on 8 df,   p=2e-10
+Wald test            = 62.37  on 8 df,   p=2e-10
+Score (logrank) test = 66.74  on 8 df,   p=2e-11
+
